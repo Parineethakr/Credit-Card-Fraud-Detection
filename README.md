@@ -22,12 +22,15 @@ The following Python libraries are required to run the `fraud_detection.py` scri
 - `matplotlib`  
 - `seaborn`
 
+---
+
 ### Installation
 
 ```bash
 pip install numpy pandas scikit-learn imbalanced-learn matplotlib seaborn
 ```
 
+---
 ## Data Requirement
 
 The script requires the standard **Credit Card Fraud Detection Dataset**.
@@ -56,8 +59,8 @@ python fraud_detection.py
 Upon successful completion, the script will:
 
 - Print the results of the baseline models and the final optimized model's parameters to the console.
-- Generate a final report file: final_report_optimized.txt (Text report with test set metrics and best hyperparameters).
-- Generate a visualization file: fraud_detection_optimized_final.png (Plot summarizing model comparison and final performance metrics).
+- Generate a final report file: `final_report_optimized.txt` (Text report with test set metrics and best hyperparameters).
+- Generate a visualization file: `fraud_detection_optimized_final.png` (Plot summarizing model comparison and final performance metrics).
 
 
 
